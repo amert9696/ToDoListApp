@@ -10,6 +10,7 @@ import SwiftUI
 struct ListRowView: View {
     
     let item: ItemModel
+    
     var body: some View {
         HStack{
             Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
